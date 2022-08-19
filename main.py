@@ -1,5 +1,5 @@
 import requests
-import logging
+import logging.config
 
 from typing import Union
 
