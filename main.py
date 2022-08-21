@@ -16,7 +16,7 @@ def read_root():
     response = api3()
     return {"RoleUsers": response }
 
-@app.get("/API3Taller2Roles/{encryptedToken}")
+@app.get("/roleUsers/{encryptedToken}")
 def read_user(encryptedToken : str):
     list=api3()
     for rol in list:
